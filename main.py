@@ -5,7 +5,7 @@ from datetime import datetime
 message = "Hey Joe, your PC is on"
 url = "https://receive-logs.fly.dev/api/log"
 #url = "http://localhost:8000/api/log"
-sleepSeconds = 10
+sleepSeconds = 60
 
 currentDateTimeBody = {"date": "", "message": message}
 
